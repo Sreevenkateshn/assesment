@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="2" errors="0" time="2.467">
+  <testsuite name="undefined" errors="0" failures="2" skipped="0" timestamp="2021-09-22T09:22:33" time="1.784" tests="4">
+    <testcase classname=" document should contain my cashbook" name=" document should contain my cashbook" time="0.074">
+    </testcase>
+    <testcase classname=" create a entry for cash-in" name=" create a entry for cash-in" time="0.01">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;cashin-btn&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          My Cashbook
+        &lt;/h1&gt;
+        &lt;div
+          class=&quot;today-balance-red&quot;
+        &gt;
+          &lt;h1
+            data-testid=&quot;balance&quot;
+          &gt;
+            0 INR
+          &lt;/h1&gt;
+          &lt;p&gt;
+            Today&apos;s Balance
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;no-entries&quot;
+      &gt;
+        &lt;p&gt;
+          No Entry Found!
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;action-group&quot;
+      &gt;
+        &lt;button
+          class=&quot;red&quot;
+          data-testid=&quot;create-entry-btn&quot;
+        &gt;
+          Out
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;green&quot;
+          data-testid=&quot;create-entry-btn&quot;
+        &gt;
+          IN
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByTestId (/Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:106:19)
+    at Object.&lt;anonymous&gt; (/Users/sree/Desktop/cashbook/src/App.test.js:36:26)
+    at Promise.then.completed (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/utils.js:276:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/utils.js:216:10)
+    at _callCircusTest (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:212:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:63:9)
+    at run (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/runTest.js:472:34)
+    at Object.worker (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname=" create a entry for cash-out" name=" create a entry for cash-out" time="0.006">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;cashout-btn&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          My Cashbook
+        &lt;/h1&gt;
+        &lt;div
+          class=&quot;today-balance-red&quot;
+        &gt;
+          &lt;h1
+            data-testid=&quot;balance&quot;
+          &gt;
+            0 INR
+          &lt;/h1&gt;
+          &lt;p&gt;
+            Today&apos;s Balance
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;no-entries&quot;
+      &gt;
+        &lt;p&gt;
+          No Entry Found!
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div
+        class=&quot;action-group&quot;
+      &gt;
+        &lt;button
+          class=&quot;red&quot;
+          data-testid=&quot;create-entry-btn&quot;
+        &gt;
+          Out
+        &lt;/button&gt;
+        &lt;button
+          class=&quot;green&quot;
+          data-testid=&quot;create-entry-btn&quot;
+        &gt;
+          IN
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByTestId (/Users/sree/Desktop/cashbook/node_modules/@testing-library/dom/dist/query-helpers.js:106:19)
+    at Object.&lt;anonymous&gt; (/Users/sree/Desktop/cashbook/src/App.test.js:63:26)
+    at Promise.then.completed (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/utils.js:276:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/utils.js:216:10)
+    at _callCircusTest (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:212:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:63:9)
+    at run (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/Users/sree/Desktop/cashbook/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/runTest.js:472:34)
+    at Object.worker (/Users/sree/Desktop/cashbook/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname=" test to validate the zero balance" name=" test to validate the zero balance" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
